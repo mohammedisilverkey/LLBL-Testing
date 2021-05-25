@@ -25,6 +25,26 @@ namespace prj
             await repository.PostManagerEmployeeData(employee,manager);
             
             await repository.GetEmployeesAnManagers();
+
+
+            /* 
+            
+            var employee=new EmployeeEntity(){
+                Name="mostafa mohammed"
+            };
+
+            var manager=new ManagerEntity(){
+                Name="sara ahmed",
+                DepartmentId=4
+            };
+
+            var repository=new llbl();
+            await repository.PostManagerEmployeeData(employee,manager);
+            
+            await repository.GetEmployeesAnManagers();
+
+            
+             */
             
             
         }
